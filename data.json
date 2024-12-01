@@ -1,0 +1,72 @@
+{
+  "name": "Javier Polo Rivas",
+  "about": "A passionate web developer with skills in Java, JavaScript, Node.js, and Astro. I'm always looking to learn and improve my skills through practical projects.",
+  "studies": [
+    {
+      "degree": "INTERMEDIATE DEGREE IN MICROINFORMATIC SYSTEMS AND NETWORKS (2018-2020)",
+      "university": "Sopeña San Pablo",
+      "description": "The Intermediate Degree in Microcomputer Systems and Networks trains in installation, maintenance and administration of computer systems, networks and technical support",
+      "image": "/img/sopeñaLogo.png"
+    },
+    {
+      "degree": "HIGHER DEGREE IN WEB APPLICATION DEVELOPMENT (2020-2024)",
+      "university": "Santa Joaquina de Vedruna",
+      "description": "El grado superior de Desarrollo de Aplicaciones Web forma profesionales para crear, gestionar y mantener aplicaciones web dinámicas y seguras.",
+      "image": "/img/vedrunaLogo.jfif"
+    }
+  ], 
+  "skills": [
+    {
+      "name": "HTML",
+      "image": "/img/htmlLogo.png"
+
+    },
+    {
+      "name": "CSS",
+      "image": "/img/cssLogo.png"
+    },
+    {
+      "name": "JavaScript",
+      "image": "/img/javaScriptLogo.png"
+      
+    },
+    {
+      "name": "MySQL",
+      "image": "/img/mySql_logo.png"
+      
+    },
+    {
+      "name": "Figma",
+      "image": "/img/javaScriptLogo.png"
+      
+    }
+  
+  ],
+  "experiences":[
+    {
+      "name": "Worker at Ramon Polo S.A, an olive company in Dos Hermanas, I have been working for two summers but it was not what I wanted to dedicate myself to.",
+      "image": "/img/ramonpolosa_logo.jfif"
+    },
+    {
+      "name": "IT at Kampaoh, a camping and tent company, I was in charge of the company's technical support through a ticket system.",
+      "image": "/img/kampaoh_logo.jpg"
+    },
+    {
+      "name": "Web developer for the InstantGaming company, I have developed the instant gaming website, I really liked this project.",
+      "image": "/img/instantGamingLogo.png"
+    }
+  ],
+  "references":[
+    {
+      "name": "Victor Dominguez",
+      "image": "/img/victorFoto.jpg",
+      "cargo": "Head of the IT department"
+    },
+    {
+      "name": "Joaquin Borrego",
+      "image": "/img/joaquinFoto.jpg",
+      "cargo": "DAW Teacher"
+    }
+  ]
+  
+}

@@ -1,0 +1,13 @@
+---
+const { data } = Astro.props;
+---
+
+<div id="profile" class="flex items-center space-x-12 max-w-screen-xl mx-auto">
+  <div class="flex-shrink-0 w-1/4">
+    <img src="/img/fotoYoSinFondo.png" alt="Javier Polo" class="w-full h-auto rounded-full object-cover" />
+  </div>
+  <div class="flex-grow">
+    <h1 class="text-4xl font-semibold mb-4">{data.name}</h1>
+    <p class="text-lg text-gray-700 leading-relaxed">{data.about}</p>
+  </div>
+</div>

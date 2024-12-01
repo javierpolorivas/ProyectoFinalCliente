@@ -1,0 +1,66 @@
+{
+  "name": "Javier Polo Rivas",
+  "about": "Un desarrollador web apasionado con habilidades en Java, JavaScript, Node.js y Astro. Siempre estoy buscando aprender y mejorar mis habilidades a través de proyectos prácticos.",
+  "studies": [
+    {
+      "degree": "GRADO MEDIO EN SISTEMAS MICROINFORMÁTICOS Y REDES (2018-2020)",
+      "university": "Sopeña San Pablo",
+      "description": "El Grado Medio en Sistemas Microinformáticos y Redes forma en instalación, mantenimiento y administración de sistemas informáticos, redes y soporte técnico.",
+      "image": "/img/sopeñaLogo.png"
+    },
+    {
+      "degree": "GRADO SUPERIOR EN DESARROLLO DE APLICACIONES WEB (2020-2024)",
+      "university": "Santa Joaquina de Vedruna",
+      "description": "El Grado Superior de Desarrollo de Aplicaciones Web forma profesionales para crear, gestionar y mantener aplicaciones web dinámicas y seguras.",
+      "image": "/img/vedrunaLogo.jfif"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "image": "/img/htmlLogo.png"
+    },
+    {
+      "name": "CSS",
+      "image": "/img/cssLogo.png"
+    },
+    {
+      "name": "JavaScript",
+      "image": "/img/javaScriptLogo.png"
+    },
+    {
+      "name": "MySQL",
+      "image": "/img/mySql_logo.png"
+    },
+    {
+      "name": "Figma",
+      "image": "/img/javaScriptLogo.png"
+    }
+  ],
+  "experiences": [
+    {
+      "name": "Trabajador en Ramón Polo S.A, una empresa de aceitunas en Dos Hermanas. He trabajado durante dos veranos, pero no era a lo que quería dedicarme.",
+      "image": "/img/ramonpolosa_logo.jfif"
+    },
+    {
+      "name": "Técnico de IT en Kampaoh, una empresa de camping y tiendas de campaña. Estuve a cargo del soporte técnico de la empresa mediante un sistema de tickets.",
+      "image": "/img/kampaoh_logo.jpg"
+    },
+    {
+      "name": "Desarrollador web para la empresa InstantGaming. He desarrollado el sitio web de Instant Gaming, este proyecto me gustó mucho.",
+      "image": "/img/instantGamingLogo.png"
+    }
+  ],
+  "references": [
+    {
+      "name": "Víctor Domínguez",
+      "image": "/img/victorFoto.jpg",
+      "cargo": "Jefe del departamento de IT"
+    },
+    {
+      "name": "Joaquín Borrego",
+      "image": "/img/joaquinFoto.jpg",
+      "cargo": "Profesor de DAW"
+    }
+  ]
+}

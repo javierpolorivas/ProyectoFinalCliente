@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Profile from '../sections/Profile.astro';
+import Studies from '../sections/Studies.astro';
+import Projects from '../sections/Projects.astro';
+import Skills from '../sections/Skills.astro';
+import Experiences from '../sections/Experiences.astro';
+import Contact from '../sections/Contact.astro';
+import References from '../sections/References.astro';
+
+const { searchParams } = new URL(Astro.request.url);
+const language = searchParams.get('lang') || 'en';
+const data = language === 'es' ? await import('../../data_es.json') : await import('../../data.json');
+---
+
+<Layout title={language === 'es' ? 'Portafolio de Javier Polo Rivas' : 'Javier Polo Rivas Portfolio'} data={data}>
+  <Profile data={data} />
+  <Studies data={data} language={language} />
+  <Projects language={language} />
+  <Skills language={language} />
+  <Experiences data={data} language={language} />
+  <References data={data} language={language} />
+  <Contact language={language} />
+</Layout>

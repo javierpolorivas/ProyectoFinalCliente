@@ -1,0 +1,13 @@
+---
+// Aquí puedes recibir las propiedades `name` y `image`
+const { name, image } = Astro.props;
+---
+
+<div>
+  <h2>{name}</h2>
+  <div class="flex space-x-2 mt-2">
+    <img src={image} class="w-6 h-6 rounded-full" />
+    <img src={image} class="w-6 h-6 rounded-full" />
+    <img src={image} class="w-6 h-6 rounded-full" />
+  </div>
+</div>

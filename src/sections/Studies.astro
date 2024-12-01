@@ -1,0 +1,22 @@
+---
+import StudyCard from "../components/StudyCard.astro";
+
+const { data, language } = Astro.props;
+---
+
+<section id="studies" class="mt-16 text-center">
+  <h2 class="text-3xl font-semibold mb-6">
+    {language === 'es' ? 'ESTUDIOS' : 'STUDIES'}
+  </h2>
+  <!-- Contenedor ajustado para disposición horizontal -->
+  <div class="flex flex-row gap-6 overflow-x-auto">
+    {data.studies.map((studies: { degree: unknown; university: unknown; description: unknown; image: unknown; }) => (
+      <StudyCard 
+        title={studies.degree}
+        school={studies.university}
+        description={studies.description}
+        imageSrc={studies.image}
+      />
+    ))}
+  </div>
+</section>

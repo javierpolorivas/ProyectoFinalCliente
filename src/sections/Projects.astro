@@ -1,0 +1,12 @@
+---
+import ProjectList from "../components/ProjectList";
+
+const { language } = Astro.props;
+---
+
+<section id="projects" class="mt-16 text-center">
+  <h2 class="text-3xl font-semibold mb-6">{language === 'es' ? 'PROYECTOS' : 'PROJECTS'}</h2>
+  <div class="flex flex-col gap-6">
+    <ProjectList client:only="react" />
+  </div>
+</section>

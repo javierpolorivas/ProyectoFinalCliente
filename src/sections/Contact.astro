@@ -1,0 +1,12 @@
+---
+import ContactCard from "../components/ContactCard";
+
+const { language } = Astro.props;
+---
+
+<section id="contact" class="mt-16 text-center">
+  <h2 class="text-3xl font-semibold mb-6">{language === 'es' ? 'CONTACTO' : 'CONTACT'}</h2>
+  <div class="flex flex-wrap justify-center gap-8">
+    <ContactCard client:only="react" />
+  </div>
+</section>

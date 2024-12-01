@@ -1,0 +1,42 @@
+---
+const { title } = Astro.props;
+import Navbar from '../components/Navbar.astro';
+
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+</head>
+<body class="bg-white text-gray-800 font-sans" style="font-family: 'Poppins', sans-serif;">
+  <!-- Navbar -->
+  <Navbar logoSrc="/img/logo.png" userImgSrc="/img/usuario.png" />
+
+  <!-- Contenido dinámico (contenido de la página) -->
+  <main class="py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <slot /> <!-- El contenido de cada página se insertará aquí -->
+    </div>
+  </main>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white text-center py-4 mt-16">
+  <div class="text-white p-4 flex justify-center items-center max-w-4xl mx-auto">
+    <p class="text-lg text-center flex-1">&copy; Copyright 2024 All rights reserved {Astro.props.data.name}</p>
+    <div class="flex space-x-3">
+      <!-- Enlace a GitHub -->
+      <a href="https://github.com/javierpolorivas" target="_blank" rel="noopener noreferrer">
+        <img src="/img/github.png" alt="GitHub" class="w-8 h-8 rounded-full" />
+      </a>
+      <!-- Enlace a LinkedIn -->
+      <a href="https://www.linkedin.com/in/javier-polo-rivas-8a7304339/" target="_blank" rel="noopener noreferrer">
+        <img src="/img/linkedin.jpg" alt="LinkedIn" class="w-8 h-8 rounded-full" />
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+

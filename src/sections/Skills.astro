@@ -1,0 +1,20 @@
+---
+import SkillButton from "../components/SkillButton";
+
+const { language } = Astro.props;
+---
+
+<section id="skills" class="mt-16 text-center">
+  <h2 class="text-3xl font-semibold mb-6">{language === 'es' ? 'HABILIDADES' : 'SKILLS'}</h2>
+
+  <SkillButton 
+    client:load 
+    initialSkills={[
+      { name: 'HTML', image: '/img/htmlLogo.png' },
+      { name: 'CSS', image: '/img/cssLogo.png' },
+      { name: 'JavaScript', image: '/img/javaScriptLogo.png' },
+      { name: 'MySQL', image: '/img/mySql_logo.png' },
+      { name: 'Figma', image: '/img/figmaLogo.png' }
+    ]}
+  />
+</section>
